@@ -10,7 +10,7 @@
         },
       "vmName": {
         "type": "string",
-        "defaultValue": "VMTio001",
+        "defaultValue": "VMZiri001",
         "metadata": {
           "description": "VM name"
         }
