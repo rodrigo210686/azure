@@ -29,7 +29,7 @@
         },
        "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "tio001-vnet",
+            "defaultValue": "ziri001-vnet",
             "metadata": {
                 "description": "Virtual network name"
         }
@@ -37,12 +37,12 @@
     },
   "variables": {
     "vmName": "[parameters('vmName')]",
-    "nic1": "tio001-nic1",
+    "nic1": "ziri001-nic1",
     "virtualNetworkName": "[parameters('virtualNetworkName')]",
     "subnet0Name": "subnet0",
-    "publicIPAddressName": "tio01-pip1",
+    "publicIPAddressName": "ziri01-pip1",
     "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet0Name'))]",
-    "networkSecurityGroupName": "tio01-nsg1"
+    "networkSecurityGroupName": "ziri01-nsg1"
   },
     "resources": [
         {
