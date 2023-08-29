@@ -1,3 +1,5 @@
+## Consultar roles
+https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#logic-app-contributor
 
 ## Login AZ CLI
 ```ps
