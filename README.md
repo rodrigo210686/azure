@@ -5,16 +5,38 @@
 
 
 2-Import supports Azure Blob storage and Azure File storage
+
+
 3 -Export supports Azure Blob storage
+
+
 4-support Lifecycle management policies. Lifecycle management policies are supported for block blobs and append blobs in general-purpose v2, premium block blob, and Blob Storage accounts.
+
+
 5-Object Replication supports General Purpose V2 and Premium Blob accounts.
+
+
 6-Support both Azure (AD) and SAS (Shared Access Signature) token.
+
+
 7-Support conditions when added to built-in or custom role assignments that have blob storage or queue storage data actions
+
+
 8-Encryption scopes support a container or an individual blob
+
+
 9-Not Support ZRS
+
+
 10-az support
+
+
 11-support stored access policies
+
+
 12-Tieing is supporting only or block blobs
+
+
 13-Flow logging for Blob Storage accounts has a retention period of 30 days. General Purpose v2 (GPv2) storage accounts instead, which support flow logging with a retention period of up to 365 days.
 
 ### B.File storage:
