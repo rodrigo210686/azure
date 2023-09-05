@@ -41,17 +41,41 @@
 
 ### B.File storage:
 1-az support
+
+
 2-Support persistent storage.
+
+
 3-File share Supports Premium file shares (FileStorage), Premium LRS/ZRS for SMB Multichannel
+
+
 4-File Storage: Only Shared Access Signature (SAS) token is supported.
+
+
 5-Only Shared Access Signature (SAS)
+
+
 6-Premium file shares
+
+
 6-Import supports Azure Blob storage and Azure File storage
+
+
 7-supports identity-based authentication over Server Message Block (SMB) through on-premises Active Directory Domain Services (AD DS) and Azure Active Directory Domain Services (Azure AD DS).
+
+
 8-Not support archive
+
+
 9-Not support condition
+
+
 10-No support Object Replication
+
+
 11-No support Lifecycle management policies
+
+
 12-no support encryption scope
 
 ## Storage type
