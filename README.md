@@ -1,5 +1,5 @@
 ## Storage options
-###A. Blob Storage:
+### A. Blob Storage:
 
 1-Archive is supported in Blob Storage and General Purpose v2 (GPv2) accounts. Only storage accounts that are configured for LRS, GRS, or RA-GRS support moving blobs to the archive tier.
 2-Import supports Azure Blob storage and Azure File storage
@@ -15,7 +15,7 @@
 12-Tieing is supporting only or block blobs
 13-Flow logging for Blob Storage accounts has a retention period of 30 days. General Purpose v2 (GPv2) storage accounts instead, which support flow logging with a retention period of up to 365 days.
 
-###B.File storage:
+### B.File storage:
 1-az support
 2-Support persistent storage.
 3-File share Supports Premium file shares (FileStorage), Premium LRS/ZRS for SMB Multichannel
