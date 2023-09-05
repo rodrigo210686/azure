@@ -1,3 +1,7 @@
+## Storage type
+![image](https://github.com/rodrigo210686/azure/assets/59710101/e717fa6c-fda9-4d87-a4ed-8b7fce6401d7)
+
+
 ## Consultar roles
 https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#logic-app-contributor
 
