@@ -1,5 +1,6 @@
 ## Storage options
 ###A. Blob Storage:
+
 1-Archive is supported in Blob Storage and General Purpose v2 (GPv2) accounts. Only storage accounts that are configured for LRS, GRS, or RA-GRS support moving blobs to the archive tier.
 2-Import supports Azure Blob storage and Azure File storage
 3 -Export supports Azure Blob storage
