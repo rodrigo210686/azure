@@ -1,3 +1,34 @@
+## Storage options
+###A. Blob Storage:
+1-Archive is supported in Blob Storage and General Purpose v2 (GPv2) accounts. Only storage accounts that are configured for LRS, GRS, or RA-GRS support moving blobs to the archive tier.
+2-Import supports Azure Blob storage and Azure File storage
+3 -Export supports Azure Blob storage
+4-support Lifecycle management policies. Lifecycle management policies are supported for block blobs and append blobs in general-purpose v2, premium block blob, and Blob Storage accounts.
+5-Object Replication supports General Purpose V2 and Premium Blob accounts.
+6-Support both Azure (AD) and SAS (Shared Access Signature) token.
+7-Support conditions when added to built-in or custom role assignments that have blob storage or queue storage data actions
+8-Encryption scopes support a container or an individual blob
+9-Not Support ZRS
+10-az support
+11-support stored access policies
+12-Tieing is supporting only or block blobs
+13-Flow logging for Blob Storage accounts has a retention period of 30 days. General Purpose v2 (GPv2) storage accounts instead, which support flow logging with a retention period of up to 365 days.
+
+###B.File storage:
+1-az support
+2-Support persistent storage.
+3-File share Supports Premium file shares (FileStorage), Premium LRS/ZRS for SMB Multichannel
+4-File Storage: Only Shared Access Signature (SAS) token is supported.
+5-Only Shared Access Signature (SAS)
+6-Premium file shares
+6-Import supports Azure Blob storage and Azure File storage
+7-supports identity-based authentication over Server Message Block (SMB) through on-premises Active Directory Domain Services (AD DS) and Azure Active Directory Domain Services (Azure AD DS).
+8-Not support archive
+9-Not support condition
+10-No support Object Replication
+11-No support Lifecycle management policies
+12-no support encryption scope
+
 ## Storage type
 ![image](https://github.com/rodrigo210686/azure/assets/59710101/e717fa6c-fda9-4d87-a4ed-8b7fce6401d7)
 
